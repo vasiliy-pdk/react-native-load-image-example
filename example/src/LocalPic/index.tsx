@@ -5,7 +5,7 @@ export function LocalPic() {
   return (
     <View style={styles.container}>
       <Text>Example image from the example app</Text>
-      <Image source={require('./img/example.png')} style={styles.image}></Image>
+      <Image source={require('./example.png')} style={styles.image}></Image>
     </View>
   );
 }

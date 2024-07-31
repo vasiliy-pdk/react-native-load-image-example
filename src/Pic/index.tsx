@@ -7,7 +7,7 @@ export function PicFromPackage() {
   return (
     <View style={styles.container}>
       <Text>Checkmark from the package</Text>
-      <Image source={require('./img/checked.png')} style={styles.image}></Image>
+      <Image source={require('./checked.png')} style={styles.image}></Image>
     </View>
   );
 }

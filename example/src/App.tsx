@@ -1,17 +1,12 @@
-import { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-load-image-example';
+import { StyleSheet, View } from 'react-native';
+import { PicFromPackage } from 'react-native-load-image-example';
+import { LocalPic } from './LocalPic';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
-
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <PicFromPackage />
+      <LocalPic />
     </View>
   );
 }

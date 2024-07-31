@@ -5,8 +5,8 @@ import { LocalPic } from './LocalPic';
 export default function App() {
   return (
     <View style={styles.container}>
-      <PicFromPackage />
       <LocalPic />
+      <PicFromPackage />
     </View>
   );
 }

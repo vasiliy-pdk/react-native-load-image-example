@@ -53,7 +53,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.18.5, @babel/core@npm:^7.20.0, @babel/core@npm:^7.23.9":
+"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.13.16, @babel/core@npm:^7.20.0, @babel/core@npm:^7.23.9, @babel/core@npm:^7.25.2":
   version: 7.25.2
   resolution: "@babel/core@npm:7.25.2"
   dependencies:
@@ -1523,7 +1523,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.18.2":
+"@babel/preset-env@npm:^7.25.2":
   version: 7.25.3
   resolution: "@babel/preset-env@npm:7.25.3"
   dependencies:
@@ -1616,7 +1616,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-flow@npm:^7.13.13, @babel/preset-flow@npm:^7.17.12":
+"@babel/preset-flow@npm:^7.13.13, @babel/preset-flow@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/preset-flow@npm:7.24.7"
   dependencies:
@@ -1642,7 +1642,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.17.12, @babel/preset-react@npm:^7.22.15":
+"@babel/preset-react@npm:^7.22.15, @babel/preset-react@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/preset-react@npm:7.24.7"
   dependencies:
@@ -1658,7 +1658,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.13.0, @babel/preset-typescript@npm:^7.17.12, @babel/preset-typescript@npm:^7.23.0":
+"@babel/preset-typescript@npm:^7.13.0, @babel/preset-typescript@npm:^7.23.0, @babel/preset-typescript@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/preset-typescript@npm:7.24.7"
   dependencies:
@@ -12488,16 +12488,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-builder-bob@npm:^0.28.1":
-  version: 0.28.1
-  resolution: "react-native-builder-bob@npm:0.28.1"
+"react-native-builder-bob@npm:^0.29.0":
+  version: 0.29.0
+  resolution: "react-native-builder-bob@npm:0.29.0"
   dependencies:
-    "@babel/core": ^7.18.5
+    "@babel/core": ^7.25.2
+    "@babel/plugin-transform-class-properties": ^7.24.7
+    "@babel/plugin-transform-classes": ^7.25.0
+    "@babel/plugin-transform-private-methods": ^7.24.7
+    "@babel/plugin-transform-private-property-in-object": ^7.24.7
     "@babel/plugin-transform-strict-mode": ^7.24.7
-    "@babel/preset-env": ^7.18.2
-    "@babel/preset-flow": ^7.17.12
-    "@babel/preset-react": ^7.17.12
-    "@babel/preset-typescript": ^7.17.12
+    "@babel/preset-env": ^7.25.2
+    "@babel/preset-flow": ^7.24.7
+    "@babel/preset-react": ^7.24.7
+    "@babel/preset-typescript": ^7.24.7
     babel-plugin-module-resolver: ^5.0.2
     browserslist: ^4.20.4
     cosmiconfig: ^9.0.0
@@ -12516,7 +12520,7 @@ __metadata:
     yargs: ^17.5.1
   bin:
     bob: bin/bob
-  checksum: 3f972b171a7b8f9b8d916e9097ca455d5fe3c16f3d7000247b8dc5bc49b4bb021247ae1b70521d31c45fd460da879379d3926e2aaac5db02653ad1d9ee4b3e85
+  checksum: 2af3139966a37ae07346e3e29a225e0df2a6e5421972288a83d770ec62d91643e32871e7b2b4cb12c59ac21d90c7b580f8ce3bc5bf9785c59960e03613cf1a4d
   languageName: node
   linkType: hard
 
@@ -12531,7 +12535,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     react-native: 0.74.3
-    react-native-builder-bob: ^0.28.1
+    react-native-builder-bob: ^0.29.0
     react-native-web: ~0.19.10
   languageName: unknown
   linkType: soft
@@ -12555,7 +12559,7 @@ __metadata:
     prettier: ^3.0.3
     react: 18.2.0
     react-native: 0.74.3
-    react-native-builder-bob: ^0.28.1
+    react-native-builder-bob: ^0.29.0
     release-it: ^15.0.0
     typescript: ^5.2.2
   peerDependencies:
